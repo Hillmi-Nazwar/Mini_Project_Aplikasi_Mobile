@@ -27,6 +27,7 @@ class _RegisterPageState extends State<RegisterPage> {
       showDialog(
         context: context,
         builder:
+        
             (context) => AlertDialog(
               title: const Text('Registrasi Berhasil'),
               content: const Text('Akun Anda telah dibuat. Silakan login.'),
@@ -162,12 +163,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Hero(
-                        tag: 'logo',
-                        child: Icon(Icons.star, size: 24, color: Colors.blue),
-                      ),
-                      const SizedBox(width: 8),
-                      const Text('Register', style: TextStyle(fontSize: 18)),
+                      Text('Register', style: TextStyle(fontSize: 18)),
                     ],
                   ),
                 ),

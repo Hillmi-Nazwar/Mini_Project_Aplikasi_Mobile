@@ -53,7 +53,6 @@ class HomePage extends StatelessWidget {
                 },
                 child: const Text("Logout"),
               ),
-
               const SizedBox(height: 20),
               Text(
                 'Selamat Datang,',
