@@ -29,3 +29,11 @@
 # Ini kodenya :
 <img width="2048" height="7562" alt="image" src="https://github.com/user-attachments/assets/1c29abee-6c5e-4d6b-9739-c299903f13ac" />
 
+# 4. Halaman lupa katasandi :
+<img width="1924" height="1084" alt="image" src="https://github.com/user-attachments/assets/cc886e98-52a8-4b9d-8abd-ca4c8cc554b6" />
+Saat user lupa dengan paswordnya maka bisa mengeklik lupa pasword pada halaman login
+
+# Ini kodenya :
+<img width="2048" height="3836" alt="image" src="https://github.com/user-attachments/assets/f2352700-415e-4b6a-a102-b311c4c74acd" />
+
+
