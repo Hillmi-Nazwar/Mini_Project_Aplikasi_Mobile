@@ -21,5 +21,5 @@ Disini user melakukan pembuatan akun, setelah selesai langsung melakukan login p
 <img width="1924" height="1084" alt="image" src="https://github.com/user-attachments/assets/56c82f12-1007-4e7a-af98-c94853922d6c" />
 Disini user dapat meilih menu makan dan minuman yang tersedia.
 # Ini kodenya :
-<img width="2048" height="7562" alt="carbon (2)" src="https://github.com/user-attachments/assets/ff220f51-614c-4f89-be97-4d722bb12f30" />
+<img width="2048" height="7562" alt="image" src="https://github.com/user-attachments/assets/1c29abee-6c5e-4d6b-9739-c299903f13ac" />
 
