@@ -3,6 +3,8 @@ import 'register_page.dart';
 import 'home_page.dart';
 import 'user_data.dart';
 import 'session_manager.dart';
+import 'forgot_password_page.dart';
+
 //septa
 // Helper class for password visibility state
 class PasswordState {
@@ -24,12 +26,14 @@ class _LoginPageState extends State<LoginPage> {
     String email = _emailController.text;
     String password = _passwordController.text;
 
-    if (userData.containsKey(email) && userData[email]!['password'] == password) {
+    if (userData.containsKey(email) &&
+        userData[email]!['password'] == password) {
       await SessionManager.saveLogin(email);
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => HomePage(fullName: userData[email]!['fullName']!),
+          builder: (context) =>
+              HomePage(fullName: userData[email]!['fullName']!),
         ),
       );
     } else {
@@ -121,7 +125,9 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   suffixIcon: IconButton(
                     icon: Icon(
-                      PasswordState.obsPass ? Icons.visibility_off : Icons.visibility,
+                      PasswordState.obsPass
+                          ? Icons.visibility_off
+                          : Icons.visibility,
                     ),
                     onPressed: () {
                       setState(() {
@@ -182,7 +188,12 @@ class _LoginPageState extends State<LoginPage> {
               // Lost Password Text
               GestureDetector(
                 onTap: () {
-                  // Handle "Lost Password ?" logic here
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const ForgotPasswordPage(),
+                    ),
+                  );
                 },
                 child: const Text(
                   'Lost Password ?',

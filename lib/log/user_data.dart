@@ -1,14 +1,14 @@
-
-
 Map<String, Map<String, String>> userData = {
-
-  'test@email.com': {'fullname': 'user', 'pasword': 'pass123'},
+  'test@email.com': {
+    'fullName': 'Test User',
+    'password': 'pass123',
+    'username': 'testuser'
+  },
 };
 
 class PasswordState {
   static bool obsPass = true;
 }
-
 
 class Validators {
   static String? validateEmail(String? value) {
