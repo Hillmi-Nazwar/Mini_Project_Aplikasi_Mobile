@@ -40,8 +40,10 @@ class HomePage extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 50,
-                backgroundColor: Colors.blue.shade700,
-                child: const Icon(Icons.person, size: 50, color: Colors.white),
+                backgroundColor:
+                    Colors.transparent, // Agar background tidak menimpa gambar
+                // Pastikan file 'profile.png' ada di dalam folder 'assets/images/'
+                backgroundImage: AssetImage('assets/images/shop.png'),
               ),
               ElevatedButton(
                 onPressed: () async {
